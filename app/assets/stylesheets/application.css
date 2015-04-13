@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+.navbar{
+  background-color: black;
+  border: 0;
+}
+.nav-header{
+  position: right;
+  height: 100%;
+}

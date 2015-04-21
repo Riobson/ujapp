@@ -1,4 +1,5 @@
 require 'rails_helper'
+
 FactoryGirl.define do
   factory :user do
     sequence( :first_name) { |n| "John#{n}"}

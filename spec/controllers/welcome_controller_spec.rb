@@ -6,6 +6,6 @@ describe WelcomeController do
       get :index
       
       expect(response).to have_http_status(:success)
-    end
-  end
-end
+    end  
+  end  
+end  
